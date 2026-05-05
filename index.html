@@ -7,10 +7,65 @@
 <html>
 
 <head>
-	<title>Saugat</title>
-	<title hidden>Saugat Malla</title>
-	<title hidden>Malla</title>
-	<title hidden>Malla saugat</title>
+	<!-- Primary Title: Name + Role + Location (if relevant) -->
+	<title>Saugat Magar | Software Developer — .NET, React, React Native</title>
+
+	<!-- Meta Description (appears in search results) -->
+	<meta name="description"
+		content="Saugat Magar is a Software Developer at Braindigit specializing in .NET, ASP.NET Core, React, and React Native (Expo). Portfolio of web & mobile projects." />
+
+	<!-- Canonical URL (prevents duplicate content issues) -->
+	<link rel="canonical" href="https://yourdomain.com/" />
+
+	<!-- Open Graph / Social Sharing -->
+	<meta property="og:title" content="Saugat Magar | Software Developer" />
+	<meta property="og:description"
+		content="Portfolio of Saugat Magar: .NET, React, and React Native developer building scalable web and mobile applications." />
+	<meta property="og:image" content="https://yourdomain.com/images/clover-og.png" />
+	<meta property="og:url" content="https://yourdomain.com/" />
+	<meta property="og:type" content="website" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Saugat Magar | Software Developer" />
+	<meta name="twitter:description" content=".NET, React & React Native developer portfolio — Saugat Magar" />
+	<meta name="twitter:image" content="https://yourdomain.com/images/clover-og.png" />
+
+	<!-- Keywords (less important now, but harmless) -->
+	<meta name="keywords"
+		content="Saugat Magar, Saugat Malla, software developer, .NET developer, React developer, React Native, Braindigit, portfolio, web development, mobile apps" />
+
+	<!-- Favicon (your clover) -->
+	<link rel="icon" type="image/png" href="images/clover.png" />
+	<link rel="apple-touch-icon" href="images/clover.png" />
+
+	<!-- Structured Data: Person Schema (CRITICAL for name searches) -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Person",
+	  "name": "Saugat Magar",
+	  "alternateName": ["Saugat Malla", "Saugat", "S. Magar"],
+	  "jobTitle": "Software Developer",
+	  "worksFor": {
+	    "@type": "Organization",
+	    "name": "Braindigit"
+	  },
+	  "url": "https://yourdomain.com",
+	  "image": "https://yourdomain.com/images/profile2.jpg",
+	  "sameAs": [
+	    "https://linkedin.com/in/yourprofile",
+	    "https://github.com/SUGAT111",
+	  ],
+	  "knowsAbout": [".NET", "ASP.NET Core", "React", "React Native", "Expo", "C#", "TypeScript", "Mobile Development", "Web Development"],
+	  "address": {
+	    "@type": "PostalAddress",
+	    "addressLocality": "Kathmandu",
+	    "addressCountry": "NP"
+	  }
+	}
+	</script>
+
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,6 +75,7 @@
 </head>
 
 <body class="is-preload">
+
 
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -55,6 +111,9 @@
 			<!-- Intro -->
 			<article id="intro">
 				<h2 class="major">Intro</h2>
+				<p class="name-variants" style="display:none;" aria-hidden="true">
+					Also known as: Saugat Malla, Saugat Magar, Saugat developer, Saugat Braindigit
+				</p>
 				<span class="image main"><img src="images/profile2.jpg" alt="" /></span>
 				<p>I am Saugat Magar, a Software Developer at Braindigit with over two years of professional experience
 					engineering scalable web and mobile applications. I specialize in .NET (including desktop
@@ -86,22 +145,33 @@
 					</ul>
 				</form>
 				<ul class="icons">
-					<!-- <li><a href="https://twitter.com/saugatmalla" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
-					<li><a href="https://facebook.com/saugat.magar.832631" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="https://instagram.com/su_gat_111" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="https://github.com/SUGAT111" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.linkedin.com/in/saugat-magar-573134236" class="icon fa-linkedin"
+							target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://facebook.com/saugat.magar.832631" class="icon fa-facebook"><span
+								class="label">Facebook</span></a></li>
+					<li><a href="https://instagram.com/su_gat_111" class="icon fa-instagram"><span
+								class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/SUGAT111" class="icon fa-github"><span
+								class="label">GitHub</span></a></li>
 				</ul>
-			</article>			
+			</article>
 		</div>
 
 		<footer id="footer">
-		
+
 			<p hidden>saugat</p>
 			<p hidden>saugat Malla</p>
 		</footer>
 
 	</div>
-
+	<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+		<url>
+			<loc>https://saugatmagar.com.np/</loc>
+			<lastmod>2026-05-06</lastmod>
+			<changefreq>monthly</changefreq>
+			<priority>1.0</priority>
+		</url>
+	</urlset>
 	<!-- BG -->
 	<div id="bg"></div>
 	<!-- <div id="lightning"></div> -->
@@ -113,6 +183,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<?xml version="1.0" encoding="UTF-8"?>
+
 
 </body>
 
